@@ -12,7 +12,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Pyside2 Icon")  # Configure le titre de la fenêtre
+        self.setWindowTitle("Pyside2 Tooltip")  # Configure le titre de la fenêtre
         self.setGeometry(300, 300, 500, 400)  # Configure la taille de la fenêtre
 
         QToolTip.setFont(QFont("Decorative", 10, QFont.Bold))
